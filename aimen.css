@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    color:aliceblue;
+    background-color:aliceblue;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.main-container{
+    position: relative;
+    width: 375px;
+    border: 2px solid #0b0e10;
+}
+/*//////////////////Profile classes//////////////*/
+.profile{
+    height: 460px;
+    border-radius: 5px;
+}
+.profile-img{
+    height: 460px;
+    width: 100%;
+    border: 3px solid #0b0e10;
+    border-radius: 5px;
+}
+/*//////////////////Info classes//////////////*/
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 350px;
+    
+}
+.info-container{
+    border-radius: 5px;
+    width: 90%;
+    height: 250px;
+    padding: 20px 20px; /*Shorthand (top/bottom left/right) can also be (top right bottom left)*/
+}
+.title-info{
+    display: flex;
+    flex-direction: column;
+}
+.head1{
+    font-size:xx-large;
+}
+.smallhead{
+    font-size: smaller;
+}
+
+/*//////////////////Contact Info classes//////////////*/
+i{
+    color: aliceblue;
+}
+
+
+td{
+    padding: 5px;
+}
+
+/*//////////////////Barcode Div classes//////////////*/
+.barcode{
+    position: absolute ;
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    top: 65%;
+    left: 44.5%;
+}
+.barcode-img{
+    width: 80px;
+    height: 80px;
+}
+
+@media (max-width: 445px) {
+    .barcode {
+        top: 55%;
+        left: 30%;
+    }
+  }
+
+/*//////////////////Utility classes (Adds onlu one functionality)//////////////*/
+.full-width{
+    width: 100%;
+}
+.color-charcoal{
+    background-color: #0b0e10;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

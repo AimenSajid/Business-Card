@@ -1,0 +1,10 @@
+This project uses the concepts of:
+=> Title
+=> Font Awesome Icons
+=> Setting the position relative/absolute
+=> Centering content using flex
+=> Margin/Padding Shorthand
+=> Utility Classes
+=> Little bit of media queries
+
+The barcode div only sets in place for full screen or an IPhone SE screen. 
